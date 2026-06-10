@@ -1,5 +1,5 @@
 # 一言 Hitokoto Plugin for ClassIsland
-#根据https://github.com/qbw101/Hitokoto-Plugin进行优化，可以在设置中自定义api参数（筛选内容，详情可见Hitokoto的api调用指南）
+#根据https://github.com/qbw101/Hitokoto-Plugin 进行优化，可以在设置中自定义api参数（筛选内容，详情可见Hitokoto的api调用指南）
 在 ClassIsland 课程表软件的主界面添加一个**一言**组件，每 20 秒自动从 [hitokoto.cn](https://hitokoto.cn) 获取一句话，显示内容、来源作品及作者。
 
 ## 功能
