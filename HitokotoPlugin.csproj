@@ -1,0 +1,96 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <RootNamespace>HitokotoPlugin</RootNamespace>
+    <AssemblyName>HitokotoPlugin</AssemblyName>
+    <!--
+      EnableDynamicLoading = true 让构建把所有依赖 DLL 输出到插件目录，
+      同时告知运行时通过插件专属 AssemblyLoadContext 加载，避免与宿主冲突。
+    -->
+    <EnableDynamicLoading>true</EnableDynamicLoading>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!--
+      ClassIsland.PluginSdk 是官方 SDK 包（nuget.org 上可直接找到）。
+      ExcludeAssets="runtime" 表示：SDK 的 DLL 由宿主 ClassIsland 提供，
+      不要把它打进插件输出目录，避免类型冲突导致"无法解析符号"。
+    -->
+    <!--
+      版本必须与宿主 ClassIsland 内置的 ClassIsland.Core.dll 版本一致（2.0.0.2）。
+      宿主 app-2.0.0.2-0 内的 Core 程序集版本为 2.0.0.2，不能使用更高版本。
+    -->
+    <PackageReference Include="ClassIsland.PluginSdk" Version="2.0.0.2">
+      <ExcludeAssets>runtime</ExcludeAssets>
+    </PackageReference>
+
+    <!--
+      显式引用 ClassIsland.Core，版本同宿主（2.0.0.2）。
+      ExcludeAssets="runtime" 不打包 DLL（由宿主提供）；
+      PrivateAssets="none" 保留传递依赖信息写入 deps.json。
+    -->
+    <PackageReference Include="ClassIsland.Core" Version="2.0.0.2">
+      <ExcludeAssets>runtime</ExcludeAssets>
+      <PrivateAssets>none</PrivateAssets>
+    </PackageReference>
+
+    <!--
+      Avalonia 用于 XAML 编译（生成 InitializeComponent）。
+      IncludeAssets 仅包含 build 和 compile（不含 runtime DLL），
+      因为 Avalonia 运行时由宿主 ClassIsland 提供。
+    -->
+    <PackageReference Include="Avalonia" Version="11.3.6">
+      <IncludeAssets>build;buildTransitive;analyzers;compile</IncludeAssets>
+      <ExcludeAssets>runtime;native;contentFiles</ExcludeAssets>
+    </PackageReference>
+
+    <!--
+      CommunityToolkit.Mvvm 是插件自己的依赖，需要打进输出目录。
+    -->
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.*" />
+  </ItemGroup>
+
+  <!--
+    将 .xaml 文件注册为 AvaloniaXaml 以触发 XAML 编译（生成 InitializeComponent）。
+    代码生成文件关联到对应的 .xaml.cs。
+  -->
+  <ItemGroup>
+    <AvaloniaXaml Include="Views\Components\HitokotoComponent.xaml">
+      <SubType>Designer</SubType>
+    </AvaloniaXaml>
+    <Compile Update="Views\Components\HitokotoComponent.xaml.cs">
+      <DependentUpon>HitokotoComponent.xaml</DependentUpon>
+    </Compile>
+
+    <AvaloniaXaml Include="Views\Components\HitokotoComponentSettingsControl.xaml">
+      <SubType>Designer</SubType>
+    </AvaloniaXaml>
+    <Compile Update="Views\Components\HitokotoComponentSettingsControl.xaml.cs">
+      <DependentUpon>HitokotoComponentSettingsControl.xaml</DependentUpon>
+    </Compile>
+
+    <AvaloniaXaml Include="Views\SettingsPages\HitokotoSettingsPage.xaml">
+      <SubType>Designer</SubType>
+    </AvaloniaXaml>
+    <Compile Update="Views\SettingsPages\HitokotoSettingsPage.xaml.cs">
+      <DependentUpon>HitokotoSettingsPage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <!-- 插件元数据文件复制到输出目录 -->
+  <ItemGroup>
+    <None Update="manifest.yml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="icon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="README.md">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,188 @@
+F:\Desktop\新建文件夹 (2)\bin\Release\net8.0\manifest.yml
+F:\Desktop\新建文件夹 (2)\bin\Release\net8.0\README.md
+F:\Desktop\新建文件夹 (2)\bin\Release\net8.0\HitokotoPlugin.deps.json
+F:\Desktop\新建文件夹 (2)\bin\Release\net8.0\HitokotoPlugin.runtimeconfig.json
+F:\Desktop\新建文件夹 (2)\bin\Release\net8.0\HitokotoPlugin.dll
+F:\Desktop\新建文件夹 (2)\bin\Release\net8.0\HitokotoPlugin.pdb
+F:\Desktop\新建文件夹 (2)\bin\Release\net8.0\CommunityToolkit.Mvvm.dll
+F:\Desktop\新建文件夹 (2)\bin\Release\net8.0\runtimes\win-arm64\native\av_libglesv2.dll
+F:\Desktop\新建文件夹 (2)\bin\Release\net8.0\runtimes\win-x64\native\av_libglesv2.dll
+F:\Desktop\新建文件夹 (2)\bin\Release\net8.0\runtimes\win-x86\native\av_libglesv2.dll
+F:\Desktop\新建文件夹 (2)\bin\Release\net8.0\runtimes\osx\native\libAvaloniaNative.dylib
+F:\Desktop\新建文件夹 (2)\bin\Release\net8.0\runtimes\linux-arm\native\libHarfBuzzSharp.so
+F:\Desktop\新建文件夹 (2)\bin\Release\net8.0\runtimes\linux-arm64\native\libHarfBuzzSharp.so
+F:\Desktop\新建文件夹 (2)\bin\Release\net8.0\runtimes\linux-loongarch64\native\libHarfBuzzSharp.so
+F:\Desktop\新建文件夹 (2)\bin\Release\net8.0\runtimes\linux-musl-arm\native\libHarfBuzzSharp.so
+F:\Desktop\新建文件夹 (2)\bin\Release\net8.0\runtimes\linux-musl-arm64\native\libHarfBuzzSharp.so
+F:\Desktop\新建文件夹 (2)\bin\Release\net8.0\runtimes\linux-musl-loongarch64\native\libHarfBuzzSharp.so
+F:\Desktop\新建文件夹 (2)\bin\Release\net8.0\runtimes\linux-musl-riscv64\native\libHarfBuzzSharp.so
+F:\Desktop\新建文件夹 (2)\bin\Release\net8.0\runtimes\linux-musl-x64\native\libHarfBuzzSharp.so
+F:\Desktop\新建文件夹 (2)\bin\Release\net8.0\runtimes\linux-riscv64\native\libHarfBuzzSharp.so
+F:\Desktop\新建文件夹 (2)\bin\Release\net8.0\runtimes\linux-x64\native\libHarfBuzzSharp.so
+F:\Desktop\新建文件夹 (2)\bin\Release\net8.0\runtimes\linux-x86\native\libHarfBuzzSharp.so
+F:\Desktop\新建文件夹 (2)\bin\Release\net8.0\runtimes\osx\native\libHarfBuzzSharp.dylib
+F:\Desktop\新建文件夹 (2)\bin\Release\net8.0\runtimes\win-arm64\native\libHarfBuzzSharp.dll
+F:\Desktop\新建文件夹 (2)\bin\Release\net8.0\runtimes\win-x64\native\libHarfBuzzSharp.dll
+F:\Desktop\新建文件夹 (2)\bin\Release\net8.0\runtimes\win-x86\native\libHarfBuzzSharp.dll
+F:\Desktop\新建文件夹 (2)\bin\Release\net8.0\runtimes\linux-arm\native\libSkiaSharp.so
+F:\Desktop\新建文件夹 (2)\bin\Release\net8.0\runtimes\linux-arm64\native\libSkiaSharp.so
+F:\Desktop\新建文件夹 (2)\bin\Release\net8.0\runtimes\linux-musl-x64\native\libSkiaSharp.so
+F:\Desktop\新建文件夹 (2)\bin\Release\net8.0\runtimes\linux-x64\native\libSkiaSharp.so
+F:\Desktop\新建文件夹 (2)\bin\Release\net8.0\runtimes\osx\native\libSkiaSharp.dylib
+F:\Desktop\新建文件夹 (2)\bin\Release\net8.0\runtimes\win-arm64\native\libSkiaSharp.dll
+F:\Desktop\新建文件夹 (2)\bin\Release\net8.0\runtimes\win-x64\native\libSkiaSharp.dll
+F:\Desktop\新建文件夹 (2)\bin\Release\net8.0\runtimes\win-x86\native\libSkiaSharp.dll
+F:\Desktop\新建文件夹 (2)\bin\Release\net8.0\runtimes\android-arm\native\libminiaudio.so
+F:\Desktop\新建文件夹 (2)\bin\Release\net8.0\runtimes\android-arm64\native\libminiaudio.so
+F:\Desktop\新建文件夹 (2)\bin\Release\net8.0\runtimes\android-x64\native\libminiaudio.so
+F:\Desktop\新建文件夹 (2)\bin\Release\net8.0\runtimes\freebsd-arm64\native\libminiaudio.so
+F:\Desktop\新建文件夹 (2)\bin\Release\net8.0\runtimes\freebsd-x64\native\libminiaudio.so
+F:\Desktop\新建文件夹 (2)\bin\Release\net8.0\runtimes\ios-arm64\native\miniaudio.framework\Info.plist
+F:\Desktop\新建文件夹 (2)\bin\Release\net8.0\runtimes\ios-arm64\native\miniaudio.framework\miniaudio
+F:\Desktop\新建文件夹 (2)\bin\Release\net8.0\runtimes\linux-arm\native\libminiaudio.so
+F:\Desktop\新建文件夹 (2)\bin\Release\net8.0\runtimes\linux-arm64\native\libminiaudio.so
+F:\Desktop\新建文件夹 (2)\bin\Release\net8.0\runtimes\linux-x64\native\libminiaudio.so
+F:\Desktop\新建文件夹 (2)\bin\Release\net8.0\runtimes\osx-arm64\native\libminiaudio.dylib
+F:\Desktop\新建文件夹 (2)\bin\Release\net8.0\runtimes\osx-x64\native\libminiaudio.dylib
+F:\Desktop\新建文件夹 (2)\bin\Release\net8.0\runtimes\win-arm64\native\miniaudio.dll
+F:\Desktop\新建文件夹 (2)\bin\Release\net8.0\runtimes\win-x64\native\miniaudio.dll
+F:\Desktop\新建文件夹 (2)\bin\Release\net8.0\runtimes\win-x86\native\miniaudio.dll
+F:\Desktop\新建文件夹 (2)\obj\Release\net8.0\HitokotoPlugin.csproj.AssemblyReference.cache
+F:\Desktop\新建文件夹 (2)\obj\Release\net8.0\Avalonia\Resources.Inputs.cache
+F:\Desktop\新建文件夹 (2)\obj\Release\net8.0\Avalonia\resources
+F:\Desktop\新建文件夹 (2)\obj\Release\net8.0\HitokotoPlugin.GeneratedMSBuildEditorConfig.editorconfig
+F:\Desktop\新建文件夹 (2)\obj\Release\net8.0\HitokotoPlugin.AssemblyInfoInputs.cache
+F:\Desktop\新建文件夹 (2)\obj\Release\net8.0\HitokotoPlugin.AssemblyInfo.cs
+F:\Desktop\新建文件夹 (2)\obj\Release\net8.0\HitokotoPlugin.csproj.CoreCompileInputs.cache
+F:\Desktop\新建文件夹 (2)\obj\Release\net8.0\Hitokoto.BFB5EB34.Up2Date
+F:\Desktop\新建文件夹 (2)\obj\Release\net8.0\HitokotoPlugin.dll
+F:\Desktop\新建文件夹 (2)\obj\Release\net8.0\refint\HitokotoPlugin.dll
+F:\Desktop\新建文件夹 (2)\obj\Release\net8.0\HitokotoPlugin.pdb
+F:\Desktop\新建文件夹 (2)\obj\Release\net8.0\HitokotoPlugin.genruntimeconfig.cache
+F:\Desktop\新建文件夹 (2)\obj\Release\net8.0\ref\HitokotoPlugin.dll
+F:\Desktop\Hitokoto Plugin\obj\Release\net8.0\HitokotoPlugin.csproj.AssemblyReference.cache
+F:\Desktop\Hitokoto Plugin\obj\Release\net8.0\Avalonia\Resources.Inputs.cache
+F:\Desktop\Hitokoto Plugin\obj\Release\net8.0\Avalonia\resources
+F:\Desktop\Hitokoto Plugin\obj\Release\net8.0\HitokotoPlugin.GeneratedMSBuildEditorConfig.editorconfig
+F:\Desktop\Hitokoto Plugin\obj\Release\net8.0\HitokotoPlugin.AssemblyInfoInputs.cache
+F:\Desktop\Hitokoto Plugin\obj\Release\net8.0\HitokotoPlugin.AssemblyInfo.cs
+F:\Desktop\Hitokoto Plugin\obj\Release\net8.0\HitokotoPlugin.csproj.CoreCompileInputs.cache
+F:\Desktop\Hitokoto Plugin\obj\Release\net8.0\HitokotoPlugin.dll
+F:\Desktop\Hitokoto Plugin\obj\Release\net8.0\refint\HitokotoPlugin.dll
+F:\Desktop\Hitokoto Plugin\obj\Release\net8.0\HitokotoPlugin.pdb
+F:\Desktop\Hitokoto Plugin\bin\Release\net8.0\manifest.yml
+F:\Desktop\Hitokoto Plugin\bin\Release\net8.0\README.md
+F:\Desktop\Hitokoto Plugin\bin\Release\net8.0\icon.png
+F:\Desktop\Hitokoto Plugin\bin\Release\net8.0\HitokotoPlugin.deps.json
+F:\Desktop\Hitokoto Plugin\bin\Release\net8.0\HitokotoPlugin.runtimeconfig.json
+F:\Desktop\Hitokoto Plugin\bin\Release\net8.0\HitokotoPlugin.dll
+F:\Desktop\Hitokoto Plugin\bin\Release\net8.0\HitokotoPlugin.pdb
+F:\Desktop\Hitokoto Plugin\bin\Release\net8.0\CommunityToolkit.Mvvm.dll
+F:\Desktop\Hitokoto Plugin\bin\Release\net8.0\runtimes\win-arm64\native\av_libglesv2.dll
+F:\Desktop\Hitokoto Plugin\bin\Release\net8.0\runtimes\win-x64\native\av_libglesv2.dll
+F:\Desktop\Hitokoto Plugin\bin\Release\net8.0\runtimes\win-x86\native\av_libglesv2.dll
+F:\Desktop\Hitokoto Plugin\bin\Release\net8.0\runtimes\osx\native\libAvaloniaNative.dylib
+F:\Desktop\Hitokoto Plugin\bin\Release\net8.0\runtimes\linux-arm\native\libHarfBuzzSharp.so
+F:\Desktop\Hitokoto Plugin\bin\Release\net8.0\runtimes\linux-arm64\native\libHarfBuzzSharp.so
+F:\Desktop\Hitokoto Plugin\bin\Release\net8.0\runtimes\linux-loongarch64\native\libHarfBuzzSharp.so
+F:\Desktop\Hitokoto Plugin\bin\Release\net8.0\runtimes\linux-musl-arm\native\libHarfBuzzSharp.so
+F:\Desktop\Hitokoto Plugin\bin\Release\net8.0\runtimes\linux-musl-arm64\native\libHarfBuzzSharp.so
+F:\Desktop\Hitokoto Plugin\bin\Release\net8.0\runtimes\linux-musl-loongarch64\native\libHarfBuzzSharp.so
+F:\Desktop\Hitokoto Plugin\bin\Release\net8.0\runtimes\linux-musl-riscv64\native\libHarfBuzzSharp.so
+F:\Desktop\Hitokoto Plugin\bin\Release\net8.0\runtimes\linux-musl-x64\native\libHarfBuzzSharp.so
+F:\Desktop\Hitokoto Plugin\bin\Release\net8.0\runtimes\linux-riscv64\native\libHarfBuzzSharp.so
+F:\Desktop\Hitokoto Plugin\bin\Release\net8.0\runtimes\linux-x64\native\libHarfBuzzSharp.so
+F:\Desktop\Hitokoto Plugin\bin\Release\net8.0\runtimes\linux-x86\native\libHarfBuzzSharp.so
+F:\Desktop\Hitokoto Plugin\bin\Release\net8.0\runtimes\osx\native\libHarfBuzzSharp.dylib
+F:\Desktop\Hitokoto Plugin\bin\Release\net8.0\runtimes\win-arm64\native\libHarfBuzzSharp.dll
+F:\Desktop\Hitokoto Plugin\bin\Release\net8.0\runtimes\win-x64\native\libHarfBuzzSharp.dll
+F:\Desktop\Hitokoto Plugin\bin\Release\net8.0\runtimes\win-x86\native\libHarfBuzzSharp.dll
+F:\Desktop\Hitokoto Plugin\bin\Release\net8.0\runtimes\linux-arm\native\libSkiaSharp.so
+F:\Desktop\Hitokoto Plugin\bin\Release\net8.0\runtimes\linux-arm64\native\libSkiaSharp.so
+F:\Desktop\Hitokoto Plugin\bin\Release\net8.0\runtimes\linux-musl-x64\native\libSkiaSharp.so
+F:\Desktop\Hitokoto Plugin\bin\Release\net8.0\runtimes\linux-x64\native\libSkiaSharp.so
+F:\Desktop\Hitokoto Plugin\bin\Release\net8.0\runtimes\osx\native\libSkiaSharp.dylib
+F:\Desktop\Hitokoto Plugin\bin\Release\net8.0\runtimes\win-arm64\native\libSkiaSharp.dll
+F:\Desktop\Hitokoto Plugin\bin\Release\net8.0\runtimes\win-x64\native\libSkiaSharp.dll
+F:\Desktop\Hitokoto Plugin\bin\Release\net8.0\runtimes\win-x86\native\libSkiaSharp.dll
+F:\Desktop\Hitokoto Plugin\bin\Release\net8.0\runtimes\android-arm\native\libminiaudio.so
+F:\Desktop\Hitokoto Plugin\bin\Release\net8.0\runtimes\android-arm64\native\libminiaudio.so
+F:\Desktop\Hitokoto Plugin\bin\Release\net8.0\runtimes\android-x64\native\libminiaudio.so
+F:\Desktop\Hitokoto Plugin\bin\Release\net8.0\runtimes\freebsd-arm64\native\libminiaudio.so
+F:\Desktop\Hitokoto Plugin\bin\Release\net8.0\runtimes\freebsd-x64\native\libminiaudio.so
+F:\Desktop\Hitokoto Plugin\bin\Release\net8.0\runtimes\ios-arm64\native\miniaudio.framework\Info.plist
+F:\Desktop\Hitokoto Plugin\bin\Release\net8.0\runtimes\ios-arm64\native\miniaudio.framework\miniaudio
+F:\Desktop\Hitokoto Plugin\bin\Release\net8.0\runtimes\linux-arm\native\libminiaudio.so
+F:\Desktop\Hitokoto Plugin\bin\Release\net8.0\runtimes\linux-arm64\native\libminiaudio.so
+F:\Desktop\Hitokoto Plugin\bin\Release\net8.0\runtimes\linux-x64\native\libminiaudio.so
+F:\Desktop\Hitokoto Plugin\bin\Release\net8.0\runtimes\osx-arm64\native\libminiaudio.dylib
+F:\Desktop\Hitokoto Plugin\bin\Release\net8.0\runtimes\osx-x64\native\libminiaudio.dylib
+F:\Desktop\Hitokoto Plugin\bin\Release\net8.0\runtimes\win-arm64\native\miniaudio.dll
+F:\Desktop\Hitokoto Plugin\bin\Release\net8.0\runtimes\win-x64\native\miniaudio.dll
+F:\Desktop\Hitokoto Plugin\bin\Release\net8.0\runtimes\win-x86\native\miniaudio.dll
+F:\Desktop\Hitokoto Plugin\obj\Release\net8.0\Hitokoto.BFB5EB34.Up2Date
+F:\Desktop\Hitokoto Plugin\obj\Release\net8.0\HitokotoPlugin.genruntimeconfig.cache
+F:\Desktop\Hitokoto Plugin\obj\Release\net8.0\ref\HitokotoPlugin.dll
+C:\Users\Administrator\Desktop\Hitokoto-Plugin-main\bin\Release\net8.0\icon.png
+C:\Users\Administrator\Desktop\Hitokoto-Plugin-main\bin\Release\net8.0\README.md
+C:\Users\Administrator\Desktop\Hitokoto-Plugin-main\bin\Release\net8.0\manifest.yml
+C:\Users\Administrator\Desktop\Hitokoto-Plugin-main\bin\Release\net8.0\HitokotoPlugin.deps.json
+C:\Users\Administrator\Desktop\Hitokoto-Plugin-main\bin\Release\net8.0\HitokotoPlugin.runtimeconfig.json
+C:\Users\Administrator\Desktop\Hitokoto-Plugin-main\bin\Release\net8.0\HitokotoPlugin.dll
+C:\Users\Administrator\Desktop\Hitokoto-Plugin-main\bin\Release\net8.0\HitokotoPlugin.pdb
+C:\Users\Administrator\Desktop\Hitokoto-Plugin-main\bin\Release\net8.0\CommunityToolkit.Mvvm.dll
+C:\Users\Administrator\Desktop\Hitokoto-Plugin-main\bin\Release\net8.0\runtimes\win-arm64\native\av_libglesv2.dll
+C:\Users\Administrator\Desktop\Hitokoto-Plugin-main\bin\Release\net8.0\runtimes\win-x64\native\av_libglesv2.dll
+C:\Users\Administrator\Desktop\Hitokoto-Plugin-main\bin\Release\net8.0\runtimes\win-x86\native\av_libglesv2.dll
+C:\Users\Administrator\Desktop\Hitokoto-Plugin-main\bin\Release\net8.0\runtimes\osx\native\libAvaloniaNative.dylib
+C:\Users\Administrator\Desktop\Hitokoto-Plugin-main\bin\Release\net8.0\runtimes\linux-arm\native\libHarfBuzzSharp.so
+C:\Users\Administrator\Desktop\Hitokoto-Plugin-main\bin\Release\net8.0\runtimes\linux-arm64\native\libHarfBuzzSharp.so
+C:\Users\Administrator\Desktop\Hitokoto-Plugin-main\bin\Release\net8.0\runtimes\linux-loongarch64\native\libHarfBuzzSharp.so
+C:\Users\Administrator\Desktop\Hitokoto-Plugin-main\bin\Release\net8.0\runtimes\linux-musl-arm\native\libHarfBuzzSharp.so
+C:\Users\Administrator\Desktop\Hitokoto-Plugin-main\bin\Release\net8.0\runtimes\linux-musl-arm64\native\libHarfBuzzSharp.so
+C:\Users\Administrator\Desktop\Hitokoto-Plugin-main\bin\Release\net8.0\runtimes\linux-musl-loongarch64\native\libHarfBuzzSharp.so
+C:\Users\Administrator\Desktop\Hitokoto-Plugin-main\bin\Release\net8.0\runtimes\linux-musl-riscv64\native\libHarfBuzzSharp.so
+C:\Users\Administrator\Desktop\Hitokoto-Plugin-main\bin\Release\net8.0\runtimes\linux-musl-x64\native\libHarfBuzzSharp.so
+C:\Users\Administrator\Desktop\Hitokoto-Plugin-main\bin\Release\net8.0\runtimes\linux-riscv64\native\libHarfBuzzSharp.so
+C:\Users\Administrator\Desktop\Hitokoto-Plugin-main\bin\Release\net8.0\runtimes\linux-x64\native\libHarfBuzzSharp.so
+C:\Users\Administrator\Desktop\Hitokoto-Plugin-main\bin\Release\net8.0\runtimes\linux-x86\native\libHarfBuzzSharp.so
+C:\Users\Administrator\Desktop\Hitokoto-Plugin-main\bin\Release\net8.0\runtimes\osx\native\libHarfBuzzSharp.dylib
+C:\Users\Administrator\Desktop\Hitokoto-Plugin-main\bin\Release\net8.0\runtimes\win-arm64\native\libHarfBuzzSharp.dll
+C:\Users\Administrator\Desktop\Hitokoto-Plugin-main\bin\Release\net8.0\runtimes\win-x64\native\libHarfBuzzSharp.dll
+C:\Users\Administrator\Desktop\Hitokoto-Plugin-main\bin\Release\net8.0\runtimes\win-x86\native\libHarfBuzzSharp.dll
+C:\Users\Administrator\Desktop\Hitokoto-Plugin-main\bin\Release\net8.0\runtimes\linux-arm\native\libSkiaSharp.so
+C:\Users\Administrator\Desktop\Hitokoto-Plugin-main\bin\Release\net8.0\runtimes\linux-arm64\native\libSkiaSharp.so
+C:\Users\Administrator\Desktop\Hitokoto-Plugin-main\bin\Release\net8.0\runtimes\linux-musl-x64\native\libSkiaSharp.so
+C:\Users\Administrator\Desktop\Hitokoto-Plugin-main\bin\Release\net8.0\runtimes\linux-x64\native\libSkiaSharp.so
+C:\Users\Administrator\Desktop\Hitokoto-Plugin-main\bin\Release\net8.0\runtimes\osx\native\libSkiaSharp.dylib
+C:\Users\Administrator\Desktop\Hitokoto-Plugin-main\bin\Release\net8.0\runtimes\win-arm64\native\libSkiaSharp.dll
+C:\Users\Administrator\Desktop\Hitokoto-Plugin-main\bin\Release\net8.0\runtimes\win-x64\native\libSkiaSharp.dll
+C:\Users\Administrator\Desktop\Hitokoto-Plugin-main\bin\Release\net8.0\runtimes\win-x86\native\libSkiaSharp.dll
+C:\Users\Administrator\Desktop\Hitokoto-Plugin-main\bin\Release\net8.0\runtimes\android-arm\native\libminiaudio.so
+C:\Users\Administrator\Desktop\Hitokoto-Plugin-main\bin\Release\net8.0\runtimes\android-arm64\native\libminiaudio.so
+C:\Users\Administrator\Desktop\Hitokoto-Plugin-main\bin\Release\net8.0\runtimes\android-x64\native\libminiaudio.so
+C:\Users\Administrator\Desktop\Hitokoto-Plugin-main\bin\Release\net8.0\runtimes\freebsd-arm64\native\libminiaudio.so
+C:\Users\Administrator\Desktop\Hitokoto-Plugin-main\bin\Release\net8.0\runtimes\freebsd-x64\native\libminiaudio.so
+C:\Users\Administrator\Desktop\Hitokoto-Plugin-main\bin\Release\net8.0\runtimes\ios-arm64\native\miniaudio.framework\Info.plist
+C:\Users\Administrator\Desktop\Hitokoto-Plugin-main\bin\Release\net8.0\runtimes\ios-arm64\native\miniaudio.framework\miniaudio
+C:\Users\Administrator\Desktop\Hitokoto-Plugin-main\bin\Release\net8.0\runtimes\linux-arm\native\libminiaudio.so
+C:\Users\Administrator\Desktop\Hitokoto-Plugin-main\bin\Release\net8.0\runtimes\linux-arm64\native\libminiaudio.so
+C:\Users\Administrator\Desktop\Hitokoto-Plugin-main\bin\Release\net8.0\runtimes\linux-x64\native\libminiaudio.so
+C:\Users\Administrator\Desktop\Hitokoto-Plugin-main\bin\Release\net8.0\runtimes\osx-arm64\native\libminiaudio.dylib
+C:\Users\Administrator\Desktop\Hitokoto-Plugin-main\bin\Release\net8.0\runtimes\osx-x64\native\libminiaudio.dylib
+C:\Users\Administrator\Desktop\Hitokoto-Plugin-main\bin\Release\net8.0\runtimes\win-arm64\native\miniaudio.dll
+C:\Users\Administrator\Desktop\Hitokoto-Plugin-main\bin\Release\net8.0\runtimes\win-x64\native\miniaudio.dll
+C:\Users\Administrator\Desktop\Hitokoto-Plugin-main\bin\Release\net8.0\runtimes\win-x86\native\miniaudio.dll
+C:\Users\Administrator\Desktop\Hitokoto-Plugin-main\obj\Release\net8.0\HitokotoPlugin.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\Hitokoto-Plugin-main\obj\Release\net8.0\Avalonia\Resources.Inputs.cache
+C:\Users\Administrator\Desktop\Hitokoto-Plugin-main\obj\Release\net8.0\Avalonia\resources
+C:\Users\Administrator\Desktop\Hitokoto-Plugin-main\obj\Release\net8.0\HitokotoPlugin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\Hitokoto-Plugin-main\obj\Release\net8.0\HitokotoPlugin.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\Hitokoto-Plugin-main\obj\Release\net8.0\HitokotoPlugin.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\Hitokoto-Plugin-main\obj\Release\net8.0\HitokotoPlugin.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Hitokoto-Plugin-main\obj\Release\net8.0\Hitokoto.BFB5EB34.Up2Date
+C:\Users\Administrator\Desktop\Hitokoto-Plugin-main\obj\Release\net8.0\HitokotoPlugin.dll
+C:\Users\Administrator\Desktop\Hitokoto-Plugin-main\obj\Release\net8.0\refint\HitokotoPlugin.dll
+C:\Users\Administrator\Desktop\Hitokoto-Plugin-main\obj\Release\net8.0\HitokotoPlugin.pdb
+C:\Users\Administrator\Desktop\Hitokoto-Plugin-main\obj\Release\net8.0\HitokotoPlugin.genruntimeconfig.cache
+C:\Users\Administrator\Desktop\Hitokoto-Plugin-main\obj\Release\net8.0\ref\HitokotoPlugin.dll

@@ -1,0 +1,193 @@
+<ci:SettingsPageBase
+    x:Class="HitokotoPlugin.Views.SettingsPages.HitokotoSettingsPage"
+    xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:ci="http://classisland.tech/schemas/xaml/core"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:HitokotoPlugin.Views.SettingsPages"
+    mc:Ignorable="d"
+    d:DesignHeight="500" d:DesignWidth="800"
+    d:DataContext="{d:DesignInstance local:HitokotoSettingsPage}">
+
+    <ScrollViewer>
+        <StackPanel Margin="24,16" Spacing="16">
+
+            <!-- ── 页面标题 ── -->
+            <TextBlock Text="一言插件设置"
+                       FontSize="20"
+                       FontWeight="Bold"
+                       Margin="0,0,0,8" />
+
+            <!-- ── 分组：豆包 AI 审核 ── -->
+            <Border Background="{DynamicResource MaterialDesignCardBackground}"
+                    CornerRadius="8"
+                    Padding="16">
+                <StackPanel Spacing="12">
+
+                    <TextBlock Text="豆包 AI 内容审核"
+                               FontSize="15"
+                               FontWeight="SemiBold" />
+
+                    <TextBlock TextWrapping="Wrap" Opacity="0.7" FontSize="12"
+                               Text="开启后，每次获取的一言将由豆包大模型进行审核。&#x0a;不适合课堂场景的内容将被过滤，不在主界面显示。" />
+
+                    <!-- 开关 -->
+                    <StackPanel Orientation="Horizontal" Spacing="12" VerticalAlignment="Center">
+                        <ToggleSwitch x:Name="DoubaoReviewToggle"
+                                      IsChecked="{Binding Settings.EnableAiReview}"
+                                      Checked="DoubaoReviewToggle_OnChecked"
+                                      OnContent="已开启"
+                                      OffContent="未开启" />
+                    </StackPanel>
+
+                    <!-- API Key 输入区（仅在开启时显示） -->
+                    <StackPanel Spacing="8"
+                                IsVisible="{Binding Settings.EnableAiReview}">
+
+                        <Separator />
+
+                        <!-- 说明文字 -->
+                        <TextBlock TextWrapping="Wrap" FontSize="12" Opacity="0.7"
+                                   Text="请在火山引擎控制台（https://console.volcengine.com/ark）开通豆包大模型，&#x0a;创建推理接入点后，将下方信息填入。" />
+
+                        <!-- API Key -->
+                        <StackPanel Spacing="4">
+                            <TextBlock Text="API Key" FontSize="13" />
+                            <TextBox
+                                Text="{Binding Settings.DoubaoApiKey}"
+                                Watermark="填写火山引擎 API Key（Bearer Token）"
+                                PasswordChar="•"
+                                FontSize="13" />
+                            <TextBlock Text="API Key 以 Bearer Token 形式使用，请勿泄露。"
+                                       FontSize="11" Opacity="0.5" />
+                        </StackPanel>
+
+                        <!-- 推理接入点 ID / 模型 ID -->
+                        <StackPanel Spacing="4">
+                            <TextBlock Text="推理接入点 ID（Model ID）" FontSize="13" />
+                            <TextBox
+                                Text="{Binding Settings.DoubaoModelId}"
+                                Watermark="例：ep-20241201xxxxxx-xxxxx"
+                                FontSize="13" />
+                            <TextBlock Text="在火山引擎控制台的【推理接入点】中创建并复制。"
+                                       FontSize="11" Opacity="0.5" />
+                        </StackPanel>
+
+                    </StackPanel>
+
+                </StackPanel>
+            </Border>
+
+            <!-- ── 分组：千问 AI 审核 ── -->
+            <Border Background="{DynamicResource MaterialDesignCardBackground}"
+                    CornerRadius="8"
+                    Padding="16">
+                <StackPanel Spacing="12">
+
+                    <TextBlock Text="千问 AI（通义千问）内容审核"
+                               FontSize="15"
+                               FontWeight="SemiBold" />
+
+                    <TextBlock TextWrapping="Wrap" Opacity="0.7" FontSize="12"
+                               Text="开启后，每次获取的一言将由通义千问大模型进行审核。&#x0a;不适合课堂场景的内容将被过滤，不在主界面显示。" />
+
+                    <!-- 开关 -->
+                    <StackPanel Orientation="Horizontal" Spacing="12" VerticalAlignment="Center">
+                        <ToggleSwitch IsChecked="{Binding Settings.EnableQwenReview}"
+                                      Checked="QwenReviewToggle_OnChecked"
+                                      OnContent="已开启"
+                                      OffContent="未开启" />
+                    </StackPanel>
+
+                    <!-- API Key 输入区（仅在开启时显示） -->
+                    <StackPanel Spacing="8"
+                                IsVisible="{Binding Settings.EnableQwenReview}">
+
+                        <Separator />
+
+                        <!-- 说明文字 -->
+                        <TextBlock TextWrapping="Wrap" FontSize="12" Opacity="0.7"
+                                   Text="请在阿里云 DashScope 控制台（https://dashscope.console.aliyun.com）开通通义千问，&#x0a;创建 API Key 后，将下方信息填入。" />
+
+                        <!-- API Key -->
+                        <StackPanel Spacing="4">
+                            <TextBlock Text="API Key" FontSize="13" />
+                            <TextBox
+                                Text="{Binding Settings.QwenApiKey}"
+                                Watermark="填写阿里云 DashScope API Key"
+                                PasswordChar="•"
+                                FontSize="13" />
+                            <TextBlock Text="API Key 以 Bearer Token 形式使用，请勿泄露。"
+                                       FontSize="11" Opacity="0.5" />
+                        </StackPanel>
+
+                        <!-- 模型 ID -->
+                        <StackPanel Spacing="4">
+                            <TextBlock Text="模型 ID" FontSize="13" />
+                            <TextBox
+                                Text="{Binding Settings.QwenModelId}"
+                                Watermark="例：qwen-turbo、qwen-plus"
+                                FontSize="13" />
+                            <TextBlock Text="推荐使用 qwen-turbo（快速）或 qwen-plus（更强），其他模型也可填入。"
+                                       FontSize="11" Opacity="0.5" />
+                        </StackPanel>
+
+                    </StackPanel>
+
+                </StackPanel>
+            </Border>
+
+            <!-- ── 分组：拒绝原因展示 ── -->
+            <Border Background="{DynamicResource MaterialDesignCardBackground}"
+                    CornerRadius="8"
+                    Padding="16">
+                <StackPanel Spacing="12">
+
+                    <TextBlock Text="AI 审核显示设置"
+                               FontSize="15"
+                               FontWeight="SemiBold" />
+
+                    <ToggleSwitch
+                        IsChecked="{Binding Settings.ShowRejectionReason}"
+                        OnContent="已开启：显示具体拒绝原因"
+                        OffContent="未开启：不显示原因，仅提示已被过滤" />
+
+                    <TextBlock TextWrapping="Wrap" Opacity="0.7" FontSize="12"
+                               Text="开启后，当一言被 AI 审核拒绝时，&#x0a;会在主区域醒目显示模型返回的具体拒绝原因（如包含敏感话题等）。&#x0a;关闭则仅显示「此条一言已被 AI 过滤」。" />
+
+                </StackPanel>
+            </Border>
+
+            <!-- ── 分组：关于 ── -->
+            <Border Background="{DynamicResource MaterialDesignCardBackground}"
+                    CornerRadius="8"
+                    Padding="16">
+                <StackPanel Spacing="6">
+                    <TextBlock Text="一言 API 设置" FontSize="15" FontWeight="SemiBold" />
+
+                    <TextBlock TextWrapping="Wrap" FontSize="12" Opacity="0.7"
+                               Text="可自定义请求的一言 API 地址；留空将使用内置默认地址（https://v1.hitokoto.cn/?c=i）。" />
+
+                    <StackPanel Spacing="4">
+                        <TextBlock Text="API 地址" FontSize="13" />
+                        <TextBox Text="{Binding Settings.HitokotoApiUrl}"
+                                 Watermark="https://v1.hitokoto.cn/?c=i"
+                                 FontSize="13" />
+                        <TextBlock Text="示例：https://v1.hitokoto.cn/?c=i 或 自建 API 地址" FontSize="11" Opacity="0.5" />
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+            <Border Background="{DynamicResource MaterialDesignCardBackground}"
+                    CornerRadius="8"
+                    Padding="16">
+                <StackPanel Spacing="6">
+                    <TextBlock Text="关于一言插件" FontSize="15" FontWeight="SemiBold" />
+                    <TextBlock TextWrapping="Wrap" FontSize="12" Opacity="0.65"
+                               Text="数据来源：https://hitokoto.cn&#x0a;AI 审核：豆包大模型（火山引擎方舟平台）/ 通义千问（阿里云 DashScope）&#x0a;每 20 秒自动刷新一言内容。" />
+                </StackPanel>
+            </Border>
+
+        </StackPanel>
+    </ScrollViewer>
+</ci:SettingsPageBase>

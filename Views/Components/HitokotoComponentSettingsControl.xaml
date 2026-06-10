@@ -1,0 +1,21 @@
+<ci:ComponentBase
+    x:TypeArguments="models:HitokotoComponentSettings"
+    x:Class="HitokotoPlugin.Views.Components.HitokotoComponentSettingsControl"
+    xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:ci="http://classisland.tech/schemas/xaml/core"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:models="clr-namespace:HitokotoPlugin.Models"
+    mc:Ignorable="d"
+    d:DesignWidth="400" d:DesignHeight="120">
+
+    <StackPanel Margin="12" Spacing="8">
+        <TextBlock Text="此组件暂无独立设置项。" Opacity="0.7" FontSize="13" />
+        <TextBlock
+            Text="如需配置豆包 AI 内容审核（开关 &amp; API Key），请前往：&#x0a;【应用设置】→【扩展设置】→【一言插件设置】"
+            TextWrapping="Wrap"
+            FontSize="12"
+            Opacity="0.6" />
+    </StackPanel>
+</ci:ComponentBase>

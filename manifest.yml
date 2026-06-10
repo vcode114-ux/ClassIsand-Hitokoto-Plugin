@@ -1,0 +1,10 @@
+id: dev.Vcodehitokoto.plugin
+name: 一言 Hitokoto
+apiVersion: 2.0.0.0
+description: 在 ClassIsland 主界面显示一言（hitokoto.cn），支持 AI 内容审核。
+entranceAssembly: "HitokotoPlugin.dll"
+url: https://github.com/vcode114-ux/ClassIsand-Hitokoto-Plugin
+author: Vcode_Official
+version: 1.1.4.5
+icon: icon.png
+readme: README.md

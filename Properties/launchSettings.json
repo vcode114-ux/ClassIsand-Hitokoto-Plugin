@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "ClassIsland (Debug)": {
+      "commandName": "Executable",
+      "executablePath": "$(ClassIslandPath)\\ClassIsland.exe",
+      "commandLineArgs": "--unsafe-plugin-loading",
+      "workingDirectory": "$(ClassIslandPath)",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

@@ -1,0 +1,84 @@
+<ci:ComponentBase
+    x:TypeArguments="models:HitokotoComponentSettings"
+    x:Class="HitokotoPlugin.Views.Components.HitokotoComponent"
+    xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:ci="http://classisland.tech/schemas/xaml/core"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:models="clr-namespace:HitokotoPlugin.Models"
+    xmlns:converters="clr-namespace:HitokotoPlugin.Converters"
+    mc:Ignorable="d"
+    MinWidth="0"
+    d:DesignWidth="480" d:DesignHeight="90">
+
+    <ci:ComponentBase.Resources>
+        <converters:StringNotEmptyConverter x:Key="StringNotEmptyConverter" />
+    </ci:ComponentBase.Resources>
+
+    <Grid ColumnDefinitions="4,8,*">
+
+        <!-- 左侧装饰竖线 -->
+        <Rectangle Grid.Column="0"
+                   Fill="{DynamicResource PrimaryHueMidBrush}"
+                   RadiusX="2" RadiusY="2"
+                   VerticalAlignment="Stretch" />
+
+        <!-- 内容区 -->
+        <StackPanel Grid.Column="2"
+                    Spacing="2"
+                    VerticalAlignment="Center"
+                    Margin="0,4,8,4">
+
+            <!-- 加载中 -->
+            <TextBlock Text="正在加载一言…"
+                       FontSize="14"
+                       Opacity="0.55"
+                       IsVisible="{Binding IsLoading,
+                           RelativeSource={RelativeSource AncestorType=ci:ComponentBase}}" />
+
+            <!-- 一言正文 -->
+            <TextBlock
+                Text="{Binding Hitokoto,
+                    RelativeSource={RelativeSource AncestorType=ci:ComponentBase}}"
+                FontSize="15"
+                TextWrapping="Wrap"
+                IsVisible="{Binding !IsLoading,
+                    RelativeSource={RelativeSource AncestorType=ci:ComponentBase}}" />
+
+            <!-- 来源 -->
+            <TextBlock
+                Text="{Binding Source,
+                    RelativeSource={RelativeSource AncestorType=ci:ComponentBase}}"
+                FontSize="12"
+                Opacity="0.5"
+                HorizontalAlignment="Right"
+                IsVisible="{Binding !IsLoading,
+                    RelativeSource={RelativeSource AncestorType=ci:ComponentBase}}" />
+
+            <!-- AI 拒绝提示 -->
+            <TextBlock
+                Text="{Binding StatusMessage,
+                    RelativeSource={RelativeSource AncestorType=ci:ComponentBase}}"
+                FontSize="11"
+                Foreground="OrangeRed"
+                TextWrapping="Wrap"
+                IsVisible="{Binding StatusMessage,
+                    Converter={StaticResource StringNotEmptyConverter},
+                    RelativeSource={RelativeSource AncestorType=ci:ComponentBase}}" />
+
+            <!-- 拒绝原因（醒目展示） -->
+            <TextBlock
+                Text="{Binding RejectionReason,
+                    RelativeSource={RelativeSource AncestorType=ci:ComponentBase}}"
+                FontSize="12"
+                FontStyle="Italic"
+                Foreground="DarkOrange"
+                TextWrapping="Wrap"
+                Margin="0,2,0,0"
+                IsVisible="{Binding RejectionReason,
+                    Converter={StaticResource StringNotEmptyConverter},
+                    RelativeSource={RelativeSource AncestorType=ci:ComponentBase}}" />
+        </StackPanel>
+    </Grid>
+</ci:ComponentBase>
