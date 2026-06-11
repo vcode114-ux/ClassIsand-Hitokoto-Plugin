@@ -1,5 +1,5 @@
 # 一言 Hitokoto Plugin for ClassIsland
-#根据https://github.com/qbw101/Hitokoto-Plugin 进行优化，可以在设置中自定义api参数（筛选内容，详情可见Hitokoto的api调用指南）
+根据https://github.com/qbw101/Hitokoto-Plugin进行优化，可以在设置中自定义api参数（调整返回的句子参数）
 在 ClassIsland 课程表软件的主界面添加一个**一言**组件，每 20 秒自动从 [hitokoto.cn](https://hitokoto.cn) 获取一句话，显示内容、来源作品及作者。
 
 ## 功能
@@ -14,6 +14,23 @@
 1. 将插件文件夹放入 ClassIsland 的 `Plugins` 目录并启动
 2. 打开【应用设置】→【组件】，将"一言"拖入主界面
 3. （可选）打开【应用设置】→【扩展设置】→【一言插件设置】，选择 AI 审核方案并填写对应 API Key
+4. 打开【一言插件设置】，在api设置调整句子参数（c值），详细如下：
+    句子类型（参数）
+    参数	说明
+    a	动画
+    b	漫画
+    c	游戏
+    d	文学
+    e	原创
+    f	来自网络
+    g	其他
+    h	影视
+    i	诗词
+    j	网易云
+    k	哲学
+    l	抖机灵
+    其他	作为 动画 类型处理
+    可选择多个分类，例如： ?c=a&c=c
 
 ## 豆包 AI 审核配置
 
